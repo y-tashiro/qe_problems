@@ -1,0 +1,6 @@
+before_script:
+    - uname -a
+    - git clone https://github.com/dabeaz/ply /tmp/ply
+script:
+    - PYTHONPATH=/tmp/ply sh ./checker/check.sh -r problems
+

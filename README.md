@@ -1,12 +1,14 @@
 QE problems
 ===========
 
+[![Build Status](https://travis-ci.org/hiwane/qe_problems.svg)](https://travis-ci.org/hiwane/qe_problems)
+
 # format
 
 - Maple language
 - each file defines a list of lists `[[a1, b1], [a2, b2], ...]:`
 where each `ai` is an (extended) first-order formula and
-`bi` is quantifier-free formula which equivalent to `ai`.
+`bi` is a quantifier-free formula which equivalent to `ai`.
 
 ## header
 
