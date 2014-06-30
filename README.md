@@ -18,6 +18,8 @@ where each `ai` is an (extended) first-order formula and
 
 ## functions
 
+![notation](https://raw.githubusercontent.com/hiwane/qe_problems/master/img/notation.png)
+
 - `area`
 - `volume`
 - `abs`
