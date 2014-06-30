@@ -67,7 +67,14 @@ def check(file, dict, rec):
 
   if os.path.isdir(file):
     for f in os.listdir(file):
-      ret |= check(os.path.join(file, f), dict, rec)
+      file2 = os.path.join(file, f)
+      if os.path.isdir(file2):
+        if rec:
+          ret |= check(file2, dict, rec)
+      else:
+        if f.endswith(".mpl"):
+          ret |= check(file2, dict, rec)
+
     return ret
 
   if not os.path.isfile(file):
@@ -79,6 +86,7 @@ def check(file, dict, rec):
     dict[key]['lno'] = 0
   lno = 0
 
+  print file
   for line in open(file, 'r'):
     lno += 1
     if len(line) == 0 or line[0] != '#':
