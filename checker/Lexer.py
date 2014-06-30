@@ -35,7 +35,6 @@ class Lexer:
      'abs'  : 'ABS',
      'area' : 'AREA',
      'volume':'VOLUME',
-     'ln'   : 'LN',
   }
 
   # List of token names.   This is always required

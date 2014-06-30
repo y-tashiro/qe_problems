@@ -43,7 +43,7 @@ def usage():
 def gendict():
   dict = {}
   dict['AUTHOR'] = {'re': re.compile('^# AUTHOR\s*:\s+.*<[\w.-]+@[\w.-]+>$')}
-  dict['DOMAIN'] = {'re': re.compile('^# DOMAIN\s*:\s+.*(reals|complex|integers|reals,area)$')}
+  dict['DOMAIN'] = {'re': re.compile('^# DOMAIN\s*:\s+.*(reals|complex|integers)$')}
   dict['CITATION'] = {'re': re.compile('^# CITATION\s*:\s+.*[^\s]$')}
 
   assert not dict['DOMAIN']['re'].match('# DOMAIN: real')
