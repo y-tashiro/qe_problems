@@ -18,6 +18,7 @@ where each `ai` is an (extended) first-order formula and
 ## relational operators
 
 | LaTeX  | Notation |
+|:------:|:--------:|
 | `=`    | `=`      |
 | `\ne`  | `<>`     |
 | `<`    | `<`      |
