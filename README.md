@@ -46,6 +46,6 @@ end do;
 
 # Contribution
 
-See [CONTRIBUTION-JP.md](https://github.com/hiwane/qe_problems/blob/master/CONTRIBUTING-JP.md) (in Japanese)
+See [CONTRIBUTING-JP.md](https://github.com/hiwane/qe_problems/blob/master/CONTRIBUTING-JP.md) (in Japanese)
 
 <!-- vim: set spell: -->
