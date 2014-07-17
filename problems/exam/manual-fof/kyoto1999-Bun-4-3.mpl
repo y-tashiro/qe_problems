@@ -15,8 +15,8 @@
 # All([z4r,z4i,z3r,z3i,z2r,z2i,z1r,z1i],
 #   Impl(And(
 #     z1r^2 + z1i^2 = 1, z2r^2 + z2i^2 = 1, z3r^2 + z3i^2 = 1,
-# 	Or(z1r<>z2r, z1i<>z2i), Or(z1r<>z3r, z1i<>z3i), Or(z1r<>z4r, z1i<>z4i),
-# 	Or(z2r<>z3r, z2i<>z3i), Or(z2r<>z4r, z2i<>z4i), Or(z3r<>z4r, z3i<>z4i),
+#     Or(z1r<>z2r, z1i<>z2i), Or(z1r<>z3r, z1i<>z3i), Or(z1r<>z4r, z1i<>z4i),
+#     Or(z2r<>z3r, z2i<>z3i), Or(z2r<>z4r, z2i<>z4i), Or(z3r<>z4r, z3i<>z4i),
 #     evalc(Im(w)) = 0), z4i^2 + z4r^2 = 1));
 # answer: z4i^2 + z4r^2 = 1
 
@@ -24,32 +24,32 @@
 All([z4r,z4i,z3r,z3i,z2r,z2i,z1r,z1i],
   Impl(And(
     z1r^2 + z1i^2 = 1, z2r^2 + z2i^2 = 1, z3r^2 + z3i^2 = 1,
-	Or(z1r<>z2r, z1i<>z2i), Or(z1r<>z3r, z1i<>z3i),
-	Or(z1r<>z4r, z1i<>z4i), Or(z2r<>z3r, z2i<>z3i),
-	Or(z2r<>z4r, z2i<>z4i), Or(z3r<>z4r, z3i<>z4i),
+    Or(z1r<>z2r, z1i<>z2i), Or(z1r<>z3r, z1i<>z3i),
+    Or(z1r<>z4r, z1i<>z4i), Or(z2r<>z3r, z2i<>z3i),
+    Or(z2r<>z4r, z2i<>z4i), Or(z3r<>z4r, z3i<>z4i),
 (((z1i-z3i)*(z2r-z4r)+(z1r-z3r)*(z2i-z4i))*(z1r-z4r)/((z1r-z4r)^2+(z1i-z4i
 )^2)-((z1r-z3r)*(z2r-z4r)-(z1i-z3i)*(z2i-z4i))*(z1i-z4i)/((z1r-z4r)^2+(z1i-z4i)
 ^2))/((z2r-z3r)^2+(z2i-z3i)^2)*(z2r-z3r)-(((z1r-z3r)*(z2r-z4r)-(z1i-z3i)*(z2i-
 z4i))*(z1r-z4r)/((z1r-z4r)^2+(z1i-z4i)^2)+((z1i-z3i)*(z2r-z4r)+(z1r-z3r)*(z2i-
 z4i))*(z1i-z4i)/((z1r-z4r)^2+(z1i-z4i)^2))*(z2i-z3i)/((z2r-z3r)^2+(z2i-z3i)^2)=0),
     z4i^2 + z4r^2 = 1)),
-	true], [
+    true], [
 Ex([z3r,z3i,z2r,z2i,z1r,z1i],
   And(
     z1r^2 + z1i^2 = 1,
     z2r^2 + z2i^2 = 1,
     z3r^2 + z3i^2 = 1,
-	Or(z1r<>z2r, z1i<>z2i),
-	Or(z1r<>z3r, z1i<>z3i),
-	Or(z1r<>z4r, z1i<>z4i),
-	Or(z2r<>z3r, z2i<>z3i),
-	Or(z2r<>z4r, z2i<>z4i),
-	Or(z3r<>z4r, z3i<>z4i),
+    Or(z1r<>z2r, z1i<>z2i),
+    Or(z1r<>z3r, z1i<>z3i),
+    Or(z1r<>z4r, z1i<>z4i),
+    Or(z2r<>z3r, z2i<>z3i),
+    Or(z2r<>z4r, z2i<>z4i),
+    Or(z3r<>z4r, z3i<>z4i),
 (((z1i-z3i)*(z2r-z4r)+(z1r-z3r)*(z2i-z4i))*(z1r-z4r)/((z1r-z4r)^2+(z1i-z4i
 )^2)-((z1r-z3r)*(z2r-z4r)-(z1i-z3i)*(z2i-z4i))*(z1i-z4i)/((z1r-z4r)^2+(z1i-z4i)
 ^2))/((z2r-z3r)^2+(z2i-z3i)^2)*(z2r-z3r)-(((z1r-z3r)*(z2r-z4r)-(z1i-z3i)*(z2i-
 z4i))*(z1r-z4r)/((z1r-z4r)^2+(z1i-z4i)^2)+((z1i-z3i)*(z2r-z4r)+(z1r-z3r)*(z2i-
 z4i))*(z1i-z4i)/((z1r-z4r)^2+(z1i-z4i)^2))*(z2i-z3i)/((z2r-z3r)^2+(z2i-z3i)^2)=0)),
-	z4r^2 + z4i^2 = 1]]:
+    z4r^2 + z4i^2 = 1]]:
 
 

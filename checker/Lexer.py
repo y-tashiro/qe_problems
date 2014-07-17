@@ -102,7 +102,7 @@ class Lexer:
     self.line_head_pos = t.lexpos + 1
 
   # A string containing ignored characters (spaces and tabs)
-  t_ignore = ' \t'
+  t_ignore = ' '
   t_ignore_comment = r'\#.*'
 
   # Error handling rule
