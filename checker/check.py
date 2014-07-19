@@ -62,6 +62,8 @@ def gendict():
   return dict
 
 
+re_seol = re.compile('.*\s\n$')
+
 def check(file, dict, rec):
   ret = 0
 
@@ -87,8 +89,12 @@ def check(file, dict, rec):
   lno = 0
 
   print file
+  #################################
+  # HEADER
+  #################################
   for line in open(file, 'r'):
     lno += 1
+
     if len(line) == 0 or line[0] != '#':
       break
 
@@ -106,6 +112,19 @@ def check(file, dict, rec):
       errmes(file, 0, 0, key + ' is not defined')
       ret = 1
 
+  #################################
+  # whitespce at EOL
+  #################################
+  lno = 0
+  for line in open(file, 'r'):
+    lno += 1
+    if re_seol.match(line):
+      errmes(file, lno, len(line)-1, 'whitespace is found at the end of line')
+      ret = 1
+
+  #################################
+  # BODY
+  #################################
   ret = ret | parse_mpl(file)
   return ret
 
@@ -136,10 +155,7 @@ def main():
   sys.exit(ret)
 
 
-
 if __name__ == "__main__":
     main()
-
-
 
 # vim:set et ts=2 sts=2 sw=2 tw=0:
