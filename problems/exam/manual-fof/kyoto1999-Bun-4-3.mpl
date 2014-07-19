@@ -3,7 +3,7 @@
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
 # CITATION : first entrance exam Kyoto U. 1999, humanities [4](3)
-# SyNRAC-20140624: (1) solved 04:20 (2) out of memory 
+# SyNRAC-20140624: (1) solved 04:20 (2) out of memory
 ###################################
 
 # assume(z4r, 'real'); assume(z4i, 'real'); z4 := z4r + z4i*I;

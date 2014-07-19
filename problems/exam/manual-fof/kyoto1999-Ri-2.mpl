@@ -6,7 +6,7 @@
 # formulation problem
 ###################################
 # Problem: Find locus of point P such that |PA||PB|+PA*PB=c (c>0) where A,B are points.
-# Answer: an ellipse with two focus points A and B 
+# Answer: an ellipse with two focus points A and B
 
 # A(-a, 0)
 # B(+a, 0)

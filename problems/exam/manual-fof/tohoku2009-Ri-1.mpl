@@ -11,5 +11,3 @@
  [All([a,b,c], Impl(a+b>=c, a^3+b^3+3*a*b*c>=c^3)), true]
 ]:
 
-
-    

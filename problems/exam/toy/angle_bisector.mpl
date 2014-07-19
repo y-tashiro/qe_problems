@@ -37,7 +37,7 @@
                   Dx = ((k * 1) + ((1 - k) * C0)))),
             Dy = ((k * 0) + ((1 - k) * C1)))),
       0 <= k,
-      k <= 1)), 
+      k <= 1)),
   And(-Dy < 0,3*Dx-1 = 0,3*Dy^2-1 = 0)],
 [Ex([k, C1, C0, mx, my, mz, k1, k0],
   And(And(And(And(And(Or(

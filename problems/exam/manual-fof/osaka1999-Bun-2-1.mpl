@@ -19,9 +19,7 @@ t^2/2 = a*t + b,  # P is on l2
 s^2/2 = a*s + b,  # Q is on l2
 y=t*x-t^2/2,      # R is on l1
 y=s*x-s^2/2,      # R is on l3
-a*t = -1)), 
+a*t = -1)),
  And(x<>0,2*x^2*y+2*x^2+1=0)]]:
-
-
 
 
