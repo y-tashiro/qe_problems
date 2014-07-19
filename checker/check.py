@@ -88,7 +88,7 @@ def check(file, dict, rec):
     dict[key]['lno'] = 0
   lno = 0
 
-  print file
+  sys.stderr.write(file + '\n')
   #################################
   # HEADER
   #################################
