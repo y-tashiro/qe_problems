@@ -49,4 +49,9 @@ end do;
 
 See [CONTRIBUTING-JP.md](https://github.com/hiwane/qe_problems/blob/master/CONTRIBUTING-JP.md) (in Japanese)
 
+# Related Project
+
+- [Remis Search](http://www.redlog.eu/remis/)
+- [A repository for CAD Examples](http://opus.bath.ac.uk/31731/)
+
 <!-- vim: set spell: -->
