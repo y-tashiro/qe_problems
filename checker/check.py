@@ -63,19 +63,40 @@ def gendict():
 
 
 re_seol = re.compile('.*\s\n$')
+dic_fname_reserved = {
+  'README.md': True,
+  'parsetab.py': True,
+  'parser.out': True,
+}
 
-def check(file, dict, rec):
+def check(file, dict, filedic, rec):
   ret = 0
 
   if os.path.isdir(file):
+
+    bpath = os.path.basename(file)
+
     for f in os.listdir(file):
       file2 = os.path.join(file, f)
       if os.path.isdir(file2):
         if rec:
-          ret |= check(file2, dict, rec)
+          ret |= check(file2, dict, filedic, rec)
       else:
         if f.endswith(".mpl"):
-          ret |= check(file2, dict, rec)
+          if bpath == "semi-auto":
+            if not f.endswith("-s.mpl"):
+              errmes(file2, 0, 1, "invalid filename. -s.mpl")
+          elif bpath == "manual-fof":
+            if not f.endswith("-m.mpl"):
+              errmes(file2, 0, 1, "invalid filename. -m.mpl")
+          elif bpath == "manual-lisp":
+            if not f.endswith("-l.mpl"):
+              errmes(file2, 0, 1, "invalid filename. -l.mpl")
+          ret |= check(file2, dict, filedic, rec)
+        elif not f in dic_fname_reserved:
+          ret = 1
+          errmes(file2, 0, 1, "invalid filename")
+
 
     return ret
 
@@ -83,6 +104,12 @@ def check(file, dict, rec):
     errmes(file, 0, 1, "file not found")
     return 1
 
+  fbase = os.path.basename(file)
+  if fbase in filedic:
+    errmes(file, 0, 1, "filename is already used.")
+    return 1
+
+  filedic[fbase] = True
 
   for key in dict.keys():
     dict[key]['lno'] = 0
@@ -150,8 +177,10 @@ def main():
 
   ret = 0
   dict = gendict()
+
+  filename = {}
   for f in args:
-    ret |= check(f, dict, recursive)
+    ret |= check(f, dict, filename, recursive)
   sys.exit(ret)
 
 
