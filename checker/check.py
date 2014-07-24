@@ -69,6 +69,7 @@ dic_fname_reserved = {
   'parser.out': True,
 }
 
+n_counter = 0
 def check(file, dict, filedic, rec):
   ret = 0
 
@@ -153,6 +154,8 @@ def check(file, dict, filedic, rec):
   # BODY
   #################################
   ret = ret | parse_mpl(file)
+  global n_counter
+  n_counter = n_counter + 1
   return ret
 
 
@@ -181,6 +184,7 @@ def main():
   filename = {}
   for f in args:
     ret |= check(f, dict, filename, recursive)
+  print "#=", n_counter
   sys.exit(ret)
 
 
