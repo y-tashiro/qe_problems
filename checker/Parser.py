@@ -19,7 +19,7 @@ class Parser:
   def parse(self, source_text):
     if self.lexer is None:
       self.lexer = Lexer()
-      self.parser = ply.yacc.yacc(module=self, **self.yacc_args)
+      self.parser = ply.yacc.yacc(module=self, debug=0, **self.yacc_args)
     return self.parser.parse(source_text, lexer=self.lexer)
 
   def parsefile(self, file):

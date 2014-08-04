@@ -11,7 +11,6 @@ import getopt
 import sys
 import os
 import re
-import ply.yacc
 from Lexer import SyntaxError
 from Parser import Parser
 #}}}
@@ -184,11 +183,12 @@ def main():
   filename = {}
   for f in args:
     ret |= check(f, dict, filename, recursive)
-  print "#=", n_counter
+  print "#=", n_counter, "ret=", ret
   sys.exit(ret)
 
 
 if __name__ == "__main__":
     main()
+    print "end"
 
 # vim:set et ts=2 sts=2 sw=2 tw=0:
