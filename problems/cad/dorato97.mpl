@@ -1,6 +1,7 @@
 ###################################
 # FILE     : dorato97.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
+# CITATION : P. Dorato, Yang, Abdallah, "Robust multi-objective feedback design by quantifier elimination", JSC, 24:145--157
 # RELATED  : A.W. Strzebonski, "Cylindrical algebraic decomposition using validated numerics.", JSC, 41(9):1021--1038, 2006
 # RELATED  : H. Iwane, Yanami, Anai, Yokoyama, "An effective implementation of symbolic--numeric cylindrical algebraic decomposition for quantifier elimination", TCS, 479:43--69, 2013
 # DOMAIN   : reals
