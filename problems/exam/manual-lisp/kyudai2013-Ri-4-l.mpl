@@ -2,7 +2,7 @@
 # FILE     : kyudai2013-Ri-4-l.mpl
 # AUTHOR   : R. Fukasaku <ryoya.0323@gmail.com>
 # DOMAIN   : reals
-# CITATION : first entrance exam Kyusyu U. 2013, science [4](1)
+# CITATION : first entrance exam Kyusyu U. 2013, science [4] (1)
 # Note     : (1) only.
 ###################################
 
