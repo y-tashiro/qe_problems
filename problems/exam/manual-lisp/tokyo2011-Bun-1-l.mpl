@@ -1,5 +1,5 @@
 ###################################
-# FILE     : tokyo2013-Bun-1-l.mpl
+# FILE     : tokyo2011-Bun-1-l.mpl
 # AUTHOR   : Y. Zhan <pon.zhan@gmail.com>
 # DOMAIN   : reals
 # CITATION : first entrance exam U. of Tokyo 2011,  humanities [1]
@@ -8,7 +8,7 @@
 
 
 [[
-Ex([x1],Ex([x0],And(Ex(x4,Ex(x3,And(x3+x4+x0+x1 = 1,x3-x4+x0-x1 = -1,2/3*x0+2*x3 = 1))),x2 = 27/2*x1^2+6*x0^2-9*x1*x0))),
+Ex([x1],Ex([x0],And(Ex([x4],Ex([x3],And(x3+x4+x0+x1 = 1,x3-x4+x0-x1 = -1,2/3*x0+2*x3 = 1))),x2 = 27/2*x1^2+6*x0^2-9*x1*x0))),
 -32*x2 <= -81
 ]
 [
