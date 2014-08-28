@@ -3,7 +3,7 @@
 # AUTHOR   : Y. Zhan <pon.zhan@gmail.com>
 # DOMAIN   : reals
 # CITATION : first entrance exam U. of Tokyo 2013,  humanities [2]
-# Note     : 
+# Note     :
 ###################################
 
 [[
