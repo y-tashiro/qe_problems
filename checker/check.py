@@ -148,6 +148,9 @@ def check(file, dict, filedic, rec):
     if re_seol.match(line):
       errmes(file, lno, len(line)-1, 'whitespace is found at the end of line')
       ret = 1
+  if line[-1] != '\n':
+    errmes(file, lno, len(line)-1, 'text file must end with an LF')
+
 
   #################################
   # BODY
