@@ -30,8 +30,6 @@ where each `ai` is an (extended) first-order formula and
 
 ![notation](https://raw.githubusercontent.com/hiwane/qe_problems/master/img/notation.png)
 
-- `area`
-- `volume`
 - `abs`
 
 # How to use
