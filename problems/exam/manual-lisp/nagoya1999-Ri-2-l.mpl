@@ -1,5 +1,5 @@
 ###################################
-# FILE     : Magoya1999-Ri-2.mpl
+# FILE     : nagoya1999-Ri-2.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
 # CITATION : first entrance exam Nagoya U. 1999, science 3
