@@ -86,12 +86,15 @@ def check(file, dict, filedic, rec):
           if bpath == "semi-auto":
             if not f.endswith("-s.mpl"):
               errmes(file2, 0, 1, "invalid filename. -s.mpl")
+              ret = 1
           elif bpath == "manual-fof":
             if not f.endswith("-m.mpl"):
               errmes(file2, 0, 1, "invalid filename. -m.mpl")
+              ret = 1
           elif bpath == "manual-lisp":
             if not f.endswith("-l.mpl"):
               errmes(file2, 0, 1, "invalid filename. -l.mpl")
+              ret = 1
           ret |= check(file2, dict, filedic, rec)
         elif not f in dic_fname_reserved:
           ret = 1
@@ -150,6 +153,7 @@ def check(file, dict, filedic, rec):
       ret = 1
   if line[-1] != '\n':
     errmes(file, lno, len(line)-1, 'text file must end with an LF')
+    ret = 1
 
 
   #################################

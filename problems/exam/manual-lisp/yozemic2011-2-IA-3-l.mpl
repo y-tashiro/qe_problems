@@ -1,0 +1,16 @@
+###################################
+# FILE     : yozemic2011-2-IA-3-l.mpl
+# AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
+# DOMAIN   : reals
+# CITATION : 代ゼミ センター実践問題集 数IA 2011 第2回 [3]
+# NOTE     : kmcs #96
+###################################
+
+[[ # カキク
+All([x0],Or(All([x1],Or(All([x3],All([x2],Or(All([x5],All([x4],Or(All([x10],All([x11],Or(All([x16],All([x15],Or(All([x17],All([x18],Or(Not(0 < ((x18-x0)^2+(x17-x1)^2)^(1/2)),Not(0 = -x0*(1/2*x0-x18)-x1*(1/2*x1-x17)),Not(0 = x3*(1/2*x3-x18)+x2*(1/2*x2-x17)),Not((x18-x0)^2+(x17-x1)^2 = (x18-x5)^2+(x17-x4)^2),Not((x18-x0)^2+(x17-x1)^2 = (x18-x16)^2+(x17-x15)^2)))),Not(0 = -(x10-x16)*x15+(x11-x15)*x16),And(x16 = 0,x15 = 0)))),All([x13],All([x12],Or(All([x14],Or(And(Or(x12 = 0,Not(0 = x4-x2-((x14-x13)/x12-x14/x12)*(-x3+x5))),Or(Not(x12 = 0),Not(0 = x3-x5))),And(Or(x12 = 0,Not(0 = -x14/x12)),Or(Not(x12 = 0),Not(0 = x14/x13))),And(Or(x12 = 0,Not(0 = -x10*((x14-x13)/x12-x11)-(x14/x12-x11)*(1-x10))),Or(Not(x12 = 0),Not(0 = (x14/x13-x10)*(1-x11)+x11*(x14/x13-x10)))))),And(x13 = 0,x12 = 0)))),Not(0 = (x0-x10)*(x4-x11)-(x1-x11)*(x5-x10)),1/2*abs(x10*(x2-x11)-x11*(x3-x10))+1/2*abs((x3-x10)*(x4-x11)-(x2-x11)*(x5-x10)) = x9))),All([x7],All([x6],Or(All([x8],Or(And(Or(x6 = 0,Not(0 = x2-((x8-x7)/x6-x8/x6)*x3)),Or(Not(x6 = 0),Not(0 = -x3))),And(Or(x6 = 0,Not(0 = -x0*((x8-x7)/x6-x1)-(x8/x6-x1)*(1-x0))),Or(Not(x6 = 0),Not(0 = (x8/x7-x0)*(1-x1)+x1*(x8/x7-x0)))),And(Or(x6 = 0,Not(0 = -x5*((x8-x7)/x6-x4)-(x8/x6-x4)*(1-x5))),Or(Not(x6 = 0),Not(0 = (x8/x7-x5)*(1-x4)+x4*(x8/x7-x5)))))),And(x7 = 0,x6 = 0)))),And(x0 = x5,x1 = x4)))),0 = -x0*(x2-x1)+x1*(x3-x0),Not((x2^2+x3^2)^(1/2) = 8),Not(((x3-x0)^2+(x2-x1)^2)^(1/2) = 9)))),Not((x0^2+x1^2)^(1/2) = 7),Not(0 = x0*x1+x1*(1-x0)))),Not(0 <= x0))),
+And(-x9 <= 0,x9^2-2880 = 0)
+], [ # チツテ
+All([x0],Or(All([x1],Or(All([x3],All([x2],Or(All([x5],All([x4],Or(All([x9],All([x10],Or(All([x16],All([x15],Or(All([x17],All([x18],Or(Not(0 < ((x18-x0)^2+(x17-x1)^2)^(1/2)),Not(0 = -x0*(1/2*x0-x18)-x1*(1/2*x1-x17)),Not(0 = x3*(1/2*x3-x18)+x2*(1/2*x2-x17)),Not((x18-x0)^2+(x17-x1)^2 = (x18-x5)^2+(x17-x4)^2),Not((x18-x0)^2+(x17-x1)^2 = (x18-x16)^2+(x17-x15)^2)))),Not(0 = -(x9-x16)*x15+(x10-x15)*x16),And(x16 = 0,x15 = 0),((x9-x16)^2+(x10-x15)^2)^(1/2) = x14))),All([x12],All([x11],Or(All([x13],Or(And(Or(x11 = 0,Not(0 = -x2+x4-((x13-x12)/x11-x13/x11)*(-x3+x5))),Or(Not(x11 = 0),Not(0 = x3-x5))),And(Or(x11 = 0,Not(0 = -x13/x11)),Or(Not(x11 = 0),Not(0 = x13/x12))),And(Or(x11 = 0,Not(0 = -x9*((x13-x12)/x11-x10)-(x13/x11-x10)*(1-x9))),Or(Not(x11 = 0),Not(0 = (x13/x12-x9)*(1-x10)+x10*(x13/x12-x9)))))),And(x12 = 0,x11 = 0)))),Not(0 = (x0-x9)*(x4-x10)-(x1-x10)*(x5-x9))))),All([x7],All([x6],Or(All([x8],Or(And(Or(x6 = 0,Not(0 = x2-((x8-x7)/x6-x8/x6)*x3)),Or(Not(x6 = 0),Not(0 = -x3))),And(Or(x6 = 0,Not(0 = -x0*((x8-x7)/x6-x1)-(x8/x6-x1)*(1-x0))),Or(Not(x6 = 0),Not(0 = (x8/x7-x0)*(1-x1)+x1*(x8/x7-x0)))),And(Or(x6 = 0,Not(0 = -x5*((x8-x7)/x6-x4)-(x8/x6-x4)*(1-x5))),Or(Not(x6 = 0),Not(0 = (x8/x7-x5)*(1-x4)+x4*(x8/x7-x5)))))),And(x7 = 0,x6 = 0)))),And(x0 = x5,x1 = x4)))),0 = -x0*(x2-x1)+x1*(x3-x0),Not((x2^2+x3^2)^(1/2) = 8),Not(((x3-x0)^2+(x2-x1)^2)^(1/2) = 9)))),Not((x0^2+x1^2)^(1/2) = 7),Not(0 = x0*x1+x1*(1-x0)))),Not(0 <= x0))),
+7*x14-32 = 0
+]]:
+
