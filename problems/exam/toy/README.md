@@ -1,24 +1,12 @@
 
-
-- http://www.amazon.co.jp/dp/4130614061
-- QEの計算アルゴリズムとその応用 - 数式処理による最適化 -
-- 穴井宏和, 横山和弘
-
-
 # Stats of input formulas
 
 lastupdated: Fri, 21 Nov 2014 17:46:00 +0900 (JST), 2607bc1
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
-Warning, extra characters at end of parsed string
-|qeb23                 | 1| 4| 2|  6| 6| 0| 6|o| | | | 1| 2|11|
-|qeb28                 | 1| 3| 2|  4| 4| 1| 3|o| | | | 2| 2|12|
-|qeb30                 | 1| 2| 2|  1| 1| 1| 0|o| | | | 2| 0| 8|
-|qeb30                 | 2| 2| 1|  1| 1| 1| 0|o| | | | 2| 2| 8|
-|qeb30                 | 3| 2| 1|  1| 1| 1| 0|o| | | | 2| 2| 8|
-|qeb32                 | 1| 3| 2|  2| 2| 2| 0|o| | | | 1| 1| 9|
-|qeb8                  | 1| 3| 2|  4| 4| 1| 3|o| | | | 2| 1| 8|
+|angle_bisector        | 1|11| 8| 18|15|16| 2| | |o|o| 4| 1|133|
+|angle_bisector        | 2|11| 8| 18|15|16| 2|o| |o|o| 4| 1|133|
 
 - `file`: file name
 - `idx`: index
