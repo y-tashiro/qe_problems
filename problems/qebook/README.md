@@ -7,11 +7,10 @@
 
 # Stats of input formulas
 
-lastupdated: Fri, 21 Nov 2014 17:46:00 +0900 (JST), 2607bc1
+lastupdate: Sun, 23 Nov 2014 22:15:34 +0900 (JST), 72876a2
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
-Warning, extra characters at end of parsed string
 |qeb23                 | 1| 4| 2|  6| 6| 0| 6|o| | | | 1| 2|11|
 |qeb28                 | 1| 3| 2|  4| 4| 1| 3|o| | | | 2| 2|12|
 |qeb30                 | 1| 2| 2|  1| 1| 1| 0|o| | | | 2| 0| 8|

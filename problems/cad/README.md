@@ -1,11 +1,10 @@
 
 # Stats of input formulas
 
-lastupdated: Fri, 21 Nov 2014 17:45:58 +0900 (JST), 2607bc1
+lastupdate: Sun, 23 Nov 2014 22:15:32 +0900 (JST), 72876a2
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
-Warning, extra characters at end of parsed string
 |delinpol              | 1| 4| 1|  2| 2| 0| 2|o| | | | 3| 1|10|
 |dorato97              | 1| 4| 3|  5| 5| 0| 5|o| | | | 4| 1|83|
 |hong97                | 1| 2| 2|  3| 3| 0| 3|o| | | |12| 0|367|
