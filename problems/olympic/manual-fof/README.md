@@ -1,11 +1,12 @@
 
 # Stats of input formulas
 
-lastupdate: Tue, 25 Nov 2014 02:46:23 +0900 (JST), da9073a
+lastupdate: Tue, 25 Nov 2014 03:17:41 +0900 (JST), 95c8ba4
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
 |imo2013-4-m           | 1| 9| 7|  9| 9| 7| 2|o| | | | 2| 2|137|
+|total                 | 1| 9| 7|  9| 9| 7| 2|1|0|0|0| 2| 2|137|
 
 - `file`: file name
 - `idx`: index

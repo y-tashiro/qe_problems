@@ -1,7 +1,7 @@
 
 # Stats of input formulas
 
-lastupdate: Tue, 25 Nov 2014 02:46:24 +0900 (JST), da9073a
+lastupdate: Tue, 25 Nov 2014 03:17:41 +0900 (JST), 95c8ba4
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
@@ -17,6 +17,7 @@ lastupdate: Tue, 25 Nov 2014 02:46:24 +0900 (JST), da9073a
 |quartic               | 1| 4| 1|  1| 1| 0| 1|o| | | | 4| 1|10|
 |quartic               | 2| 4| 1|  1| 1| 0| 1|o| | | | 4| 1|10|
 |redlog                | 1| 4| 2|  2| 2| 0| 2|o| | | | 2| 1|10|
+|total                 |12|46|13| 19|19| 5|14|12|0|0|0|32|12|100|
 
 - `file`: file name
 - `idx`: index

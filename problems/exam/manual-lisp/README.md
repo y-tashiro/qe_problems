@@ -1,7 +1,7 @@
 
 # Stats of input formulas
 
-lastupdate: Tue, 25 Nov 2014 02:46:22 +0900 (JST), da9073a
+lastupdate: Tue, 25 Nov 2014 03:18:56 +0900 (JST), 95c8ba4
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
@@ -90,6 +90,7 @@ lastupdate: Tue, 25 Nov 2014 02:46:22 +0900 (JST), da9073a
 |yozemic2014-1-IA-2-l  | 4| 8| 4|  8| 8| 7| 1| | | |o| 2| 1|48|
 |yozemic2014-1-IA-2-l  | 5|10| 7| 12|12|10| 2| | | |o| 2| 1|78|
 |yozemic2014-1-IA-2-l  | 6|12| 8| 17|17|13| 4| | |o|o| 8| 1|6470|
+|total                 |85|583|375|908|750|641|267|17|12|17|34|229|101|768109|
 
 - `file`: file name
 - `idx`: index

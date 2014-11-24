@@ -1,12 +1,13 @@
 
 # Stats of input formulas
 
-lastupdate: Tue, 25 Nov 2014 02:46:23 +0900 (JST), da9073a
+lastupdate: Tue, 25 Nov 2014 03:17:41 +0900 (JST), 95c8ba4
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
 |angle_bisector        | 1|11| 8| 18|15|16| 2| | |o|o| 4| 1|133|
 |angle_bisector        | 2|11| 8| 18|15|16| 2|o| |o|o| 4| 1|133|
+|total                 | 2|22|16| 36|30|32| 4|1|0|2|2| 8| 2|266|
 
 - `file`: file name
 - `idx`: index

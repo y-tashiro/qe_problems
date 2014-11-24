@@ -1,7 +1,7 @@
 
 # Stats of input formulas
 
-lastupdate: Tue, 25 Nov 2014 02:46:21 +0900 (JST), da9073a
+lastupdate: Tue, 25 Nov 2014 03:17:41 +0900 (JST), 95c8ba4
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
@@ -39,6 +39,7 @@ lastupdate: Tue, 25 Nov 2014 02:46:21 +0900 (JST), da9073a
 |tokyo1999-Bun-3-m     | 2| 6| 4|  3| 3| 3| 0|o| | | | 2| 2|24|
 |tokyo1999-Ri-4-m      | 1|14|11| 12|12| 4| 8| | | |o| 2| 1|85|
 |tokyo1999-Ri-4-m      | 2|17|15| 16|14| 4|12| | | | | 2| 1|103|
+|total                 |34|190|129|200|196|131|69|28|4|4|7|91|54|18135|
 
 - `file`: file name
 - `idx`: index
