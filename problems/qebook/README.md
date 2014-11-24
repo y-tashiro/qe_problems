@@ -7,7 +7,7 @@
 
 # Stats of input formulas
 
-lastupdate: Sun, 23 Nov 2014 22:15:34 +0900 (JST), 72876a2
+lastupdate: Tue, 25 Nov 2014 02:46:24 +0900 (JST), da9073a
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
@@ -24,9 +24,9 @@ lastupdate: Sun, 23 Nov 2014 22:15:34 +0900 (JST), 72876a2
 - `#v`: number of variables
 - `#q`: number of quantified variables
 - `atom`: number of atomic formulas
-- `poly`: number of polynomials appearing in the formula
-- `=,<>`: number of atomic formulas whose form are `f=0` or `f<>0`
-- `<,<=`: number of atomic formulas whose form are `f<0` or `f<=0`
+- `poly`: number of distinct polynomials appearing in the formula
+- `=,<>`: number of atomic formulas of the form `f=0` or `f<>0`
+- `<,<=`: number of atomic formulas of the form `f<0` or `f<=0`
 - `prenex`: `o` if the formula is prenex normal form
 - `abs`: `o` if the formula contains `abs()`
 - `ratpoly`: `o` if the formula contains rational functions
