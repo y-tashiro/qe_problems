@@ -1,7 +1,7 @@
 
 # Stats of input formulas
 
-lastupdate: Thu, 27 Nov 2014 11:02:42 +0900 (JST), 2937d79
+lastupdate: Fri, 28 Nov 2014 09:17:53 +0900 (JST), 20ffd3c
 
 |file| #prob | prenex | abs | ratpoly | ratexp|
 |:--|--:|--:|--:|--:|--:|
@@ -9,5 +9,5 @@ lastupdate: Thu, 27 Nov 2014 11:02:42 +0900 (JST), 2937d79
 | olympic |  2  |  1  |  0  |  1  |  0  |
 | paper |  7 | 7 | 0 | 0 | 0 |
 | qebook |  7 | 7 | 0 | 0 | 0 |
-| toy | 12 | 12 | 0 | 0 | 0 |
-|total | 168 | 90 | 16 | 24 | 43 |
+| toy | 48 | 48 | 0 | 12 | 24 |
+|total | 204 | 126 | 16 | 36 | 67 |
