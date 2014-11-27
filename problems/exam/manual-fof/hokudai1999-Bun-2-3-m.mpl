@@ -1,5 +1,5 @@
 ###################################
-# FILE     : hokudai1999-Bun-2-3.mpl
+# FILE     : hokudai1999-Bun-2-3-m.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
 # CITATION : first entrance exam Hokkaido U. 1999, humanities [2](3)
