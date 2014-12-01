@@ -4,6 +4,16 @@
 - QEの計算アルゴリズムとその応用 - 数式処理による最適化 -
 - 穴井宏和, 横山和弘
 
+- p.33 problem 1.3 [tohoku2010-Ri-1-m.mpl](../exam/manual-fof/tohoku2010-Ri-1-m.mpl)
+- p.35 problem 1.4 [tohoku2009-Bun2-4-m.mpl](../exam/manual-fof/tohoku2009-Bun2-4-m.mpl)
+- p.37 problem 1.5 [kyoto2010-Bun-2-m.mpl](../exam/manual-fof/kyoto2010-Bun-2-m.mpl)
+- p.39 problem 1.6 [tsukuba2010-Ri-1-m.mpl](../exam/manual-fof/tsukuba2010-Ri-1-m.mpl)
+- p.41 problem 1.7 [hokudai2010-Ri2-1-m.mpl](../exam/manual-fof/hokudai2010-Ri2-1-m.mpl)
+- p.43 problem 1.8 [kobe2010-Bun-1-m.mpl](../exam/manual-fof/kobe2010-Bun-1-m.mpl)
+- p.45 problem 1.9 [nagoya2011-Ri-3-m.mpl](../exam/manual-fof/nagoya2011-Ri-3-m.mpl)
+- p.47 problem 1.10 [kanazawa2011-Ri-1-m.mpl](../exam/manual-fof/kanazawa2011-Ri-1-m.mpl)
+
+
 
 # Stats of input formulas
 
