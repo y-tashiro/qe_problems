@@ -3,6 +3,7 @@
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # CITATION : http://www.redlog.eu/
 # DOMAIN   : reals
+# RELATED  : qebook p.53 example 1.12
 ###################################
 
 [[
