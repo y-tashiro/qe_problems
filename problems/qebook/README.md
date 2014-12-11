@@ -14,6 +14,11 @@
 - p.47 problem 1.10 [kanazawa2011-Ri-1-m.mpl](../exam/manual-fof/kanazawa2011-Ri-1-m.mpl)
 - p.53 example 1.12 [redlog.mpl](../../toy/redlog.mpl)
 
+- p.201 (5.8) [dorato97.mpl](../paper/dorato97.mpl)
+
+- p.215 [portfolio1.mpl](../paper/portfolio1.mpl)
+- p.217 (6.6) [portfolio1.mpl](../paper/portfolio1.mpl)
+
 
 # Stats of input formulas
 
