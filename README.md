@@ -43,6 +43,10 @@ for fml in F do
 end do;
 ```
 
+## other QE tools
+
+You can convert formulas to another format by using [qeconv](https://github.com/hiwane/qeconv/).
+
 # Contribution
 
 See [CONTRIBUTING-JP.md](https://github.com/hiwane/qe_problems/blob/master/CONTRIBUTING-JP.md) (in Japanese)
