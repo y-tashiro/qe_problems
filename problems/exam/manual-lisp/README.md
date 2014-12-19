@@ -1,7 +1,7 @@
 
 # Stats of input formulas
 
-lastupdate: Tue, 25 Nov 2014 03:18:56 +0900 (JST), 95c8ba4
+lastupdate: Fri, 19 Dec 2014 21:36:04 +0900 (JST), 57e071f
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|

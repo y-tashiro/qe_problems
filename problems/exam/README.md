@@ -19,7 +19,7 @@ Examination Problems
 
 # Stats of input formulas
 
-lastupdate: Mon, 08 Dec 2014 10:08:48 +0900 (JST), e773792
+lastupdate: Fri, 19 Dec 2014 21:36:07 +0900 (JST), 57e071f
 
 |file| #prob | prenex | abs | ratpoly | ratexp|
 |:--|--:|--:|--:|--:|--:|
