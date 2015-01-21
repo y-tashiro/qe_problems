@@ -1,7 +1,7 @@
 
 # Stats of input formulas
 
-lastupdate: Fri, 19 Dec 2014 21:35:21 +0900 (JST), 57e071f
+lastupdate: Thu, 22 Jan 2015 04:31:30 +0900 (JST), f89fa54
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
@@ -23,7 +23,9 @@ lastupdate: Fri, 19 Dec 2014 21:35:21 +0900 (JST), 57e071f
 |portfolio1            | 1| 4| 3|  7| 6| 2| 5|o| | | | 2| 1|22|
 |portfolio1            | 2| 4| 3|  5| 5| 1| 4|o| | | | 2| 1|21|
 |portfolio1            | 3| 5| 3|  5| 5| 2| 3|o| | | | 2| 1|22|
-|total                 |18|69|44| 85|84|23|62|18|0|0|0|61|20|1322|
+|weispfenning98        | 1| 5| 2|  3| 3| 3| 0|o| | | | 2| 1| 8|
+|weispfenning98        | 2| 5| 2|  2| 2| 1| 1|o| | | | 2| 2|24|
+|total                 |20|79|48| 90|89|27|63|20|0|0|0|65|23|1354|
 
 - `file`: file name
 - `idx`: index
