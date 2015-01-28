@@ -1,7 +1,7 @@
 QE problems
 ===========
 
-[![Build Status](https://travis-ci.org/hiwane/qe_problems.svg)](https://travis-ci.org/hiwane/qe_problems)
+[![Build Status](https://travis-ci.org/hiwane/qe_problems.svg?branch=master)](https://travis-ci.org/hiwane/qe_problems)
 
 # format
 
